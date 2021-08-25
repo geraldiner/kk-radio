@@ -1,0 +1,18 @@
+.record {
+	width: 100px;
+	height: 100px;
+}
+
+.record-inside {
+	width: 100px;
+	height: 100px;
+}
+
+.record div {
+	width: 35px;
+	height: 35px;
+}
+
+.songlist::-webkit-scrollbar {
+	display: none;
+}
