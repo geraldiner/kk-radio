@@ -1,7 +1,6 @@
 import React from "react";
-import { MOODS } from "./components/constants/records";
-import Record from "./components/Record";
-import SongList from "./components/SongList";
+
+import Slider from "./components/Slider";
 
 function App() {
 	return (
@@ -17,15 +16,7 @@ function App() {
 				<h3 className="text-2xl text-center">Tell me how you're feeling and I'll groove on it.</h3>
 			</div>
 			{/* Carousel */}
-			<div class="flex justify-center w-4/5 mx-auto mt-10">
-				{MOODS.map((m, i) => {
-					return (
-						<>
-							<Record key={i} name={m.name} color={m.color} />
-						</>
-					);
-				})}
-			</div>
+			<Slider />
 		</>
 	);
 }
