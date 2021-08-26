@@ -2,12 +2,11 @@ const { gql } = require("apollo-server");
 
 const typeDefs = gql`
 	type Query {
-		getSong: Song
-		getPlaylist: [Song]
+		getSong(id: ID!): Song
 	}
 
 	type Song {
-		id: String
+		id: Int
 		name: String
 		music_url: String
 		image_url: String

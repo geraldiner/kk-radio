@@ -1,7 +1,7 @@
 const { ApolloServer } = require("apollo-server");
 const resolvers = require("./resolvers");
 const typeDefs = require("./schema");
-const acnhAPI = require("./datasources/acnh");
+const ACNHAPI = require("./datasources/acnh");
 require("dotenv").config();
 console.log(process.env.PORT);
 
@@ -9,7 +9,9 @@ const server = new ApolloServer({
 	typeDefs,
 	resolvers,
 	dataSources: () => {
-		return "";
+		return {
+			acnhAPI: new ACNHAPI(),
+		};
 	},
 });
 
