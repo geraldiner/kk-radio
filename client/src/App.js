@@ -1,6 +1,6 @@
 import React from "react";
-
 import Slider from "./components/Slider";
+import AudioPlayer from "./components/AudioPlayer";
 
 function App() {
 	return (
@@ -17,6 +17,7 @@ function App() {
 			</div>
 			{/* Carousel */}
 			<Slider />
+			<AudioPlayer mood="*shrug*" />
 		</>
 	);
 }
