@@ -23,7 +23,7 @@ const Radio = () => {
 
 	return (
 		<>
-			<Loading className="w-full p-3 rounded-t-md bg-white" loading={loading} />
+			<Loading className="w-full p-3 rounded-t-md bg-white" loading={loading} color={PLAYLISTS[title].color} />
 			{error && `Error! ${error.message}`}
 			{songs && <AudioPlayer playlist={title} songs={songs} />}
 		</>
