@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kk-radio.netlify.app",
+  "homepage": "https://kk-radio.netlify.app/",
   "dependencies": {
     "@apollo/client": "^3.4.9",
     "@craco/craco": "^6.2.0",
