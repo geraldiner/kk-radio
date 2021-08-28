@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import SongList from "./SongList";
-
 const Record = ({ name, title, color }) => {
 	return (
 		<>

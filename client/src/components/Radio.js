@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 import { gql, useQuery } from "@apollo/client";
 import Loading from "./Loading";
 import AudioPlayer from "./AudioPlayer";
-import Record from "./Record";
 import { PLAYLISTS } from "./constants/records";
 
 const Radio = () => {

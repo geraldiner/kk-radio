@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from "react";
 import { PLAYLISTS } from "./constants/records";
 import AudioControls from "./AudioControls";
 import Backdrop from "./Backdrop";
-import Record from "./Record";
 
 const AudioPlayer = ({ playlist, songs }) => {
 	const [currIndex, setCurrIndex] = useState(0);
@@ -16,8 +15,6 @@ const AudioPlayer = ({ playlist, songs }) => {
 	const isReady = useRef(false);
 
 	const { duration } = audioRef.current;
-
-	const currentPercentage = duration ? `${(songProgress / duration) * 100}%` : "0%";
 
 	const toPrevSong = () => {
 		if (currIndex - 1 < 0) {
@@ -93,18 +90,23 @@ const AudioPlayer = ({ playlist, songs }) => {
 
 	return (
 		<>
-			<div className="flex justify-center w-4/12 mx-auto my-16">
-				<Record name={PLAYLISTS[playlist]} title="" color={PLAYLISTS[playlist].color} />
+			<div className="flex justify-center w-4/12 mx-auto mb-10">
+				<img
+					className="w-8/12"
+					src="https://64.media.tumblr.com/5e973de400b44b3180924d1d580f338e/b9e15a55b22090b0-f7/s500x750/39b1aef2cec211bf1bc3b909cdfd40aa885c57e0.gifv"
+					alt="K.K. Slider gif"
+				/>
 			</div>
-			<div className="flex w-4/12 mx-auto my-16 bg-white rounded-md p-4">
+			<div className="flex w-4/12 mx-auto my-10 bg-white rounded-md p-4">
 				<div className="w-1/3">
 					<img className="rounded-md" src={currSong.image_url} alt={`Song artwork for ${currSong.title}`} />
 				</div>
-				<div className="flex flex-col w-2/3 space-y-4 items-center justify-center">
+				<div className="flex flex-col w-2/3 items-center justify-center space-y-2">
 					<h3 className="text-xl font-bold">{currSong.title}</h3>
 					<Backdrop activeColor={PLAYLISTS[playlist].color} songIndex={currIndex} isPlaying={isPlaying} />
 					<AudioControls isPlaying={isPlaying} onPlayPauseClick={setIsPlaying} onPrevClick={toPrevSong} onNextClick={toNextSong} />
 					<input
+						className="w-10/12"
 						type="range"
 						value={songProgress}
 						step="1"
