@@ -25,12 +25,7 @@ const Radio = () => {
 		<>
 			<Loading className="w-full p-3 rounded-t-md bg-white" loading={loading} />
 			{error && `Error! ${error.message}`}
-			{songs && (
-				<div className="">
-					<p>The playlist chosen is: {PLAYLISTS[title].title}</p>
-					<AudioPlayer songs={songs} />
-				</div>
-			)}
+			{songs && <AudioPlayer playlist={title} songs={songs} />}
 		</>
 	);
 };
