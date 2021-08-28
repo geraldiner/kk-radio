@@ -1,40 +1,31 @@
-import React, { useState, useEffect, useRef } from "react";
-import { MOODS } from "./constants/records";
-import Record from "./Record";
-import SongList from "./SongList";
+import React from "react";
+import { Link } from "react-router-dom";
+import { PLAYLISTS } from "./constants/records";
 
 const Slider = () => {
-	const sliderRef = useRef(null);
-	const middleIndex = Math.floor(MOODS.length / 2);
-	const [dimensions, setDimensions] = useState({});
-
-	useEffect(() => {
-		if (sliderRef.current) {
-			setDimensions({
-				width: parseFloat(sliderRef.current.offsetWidth),
-				height: parseFloat(sliderRef.current.offsetHeight),
-			});
-		}
-	}, [sliderRef]);
+	const playlists = Object.keys(PLAYLISTS);
 	return (
-		<div
-			className="Slider flex justify-center align-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-green-200"
-			ref={sliderRef}
-		>
-			{MOODS.map((m, i) => {
-				let x = 0;
-				if (i < middleIndex) {
-					x = dimensions.width - 300 * (middleIndex - i);
-				} else {
-					x = dimensions.width + 300 * (i - middleIndex);
-				}
-				return (
-					<>
-						<Record key={i} name={m.name} color={m.color} x={x} />
-					</>
-				);
-			})}
-		</div>
+		<>
+			<div className="flex w-4/5 mx-auto my-16 bg-green-100">
+				{playlists.map((k, i) => {
+					let p = PLAYLISTS[k];
+					return (
+						<div key={i} className={`w-1/5 ${p.color}`}>
+							<Link to={`/playing/${k}`}>
+								<h3 className="font-bold text-xl">{p.title}</h3>
+							</Link>
+							{p.songs.map((s, j) => {
+								return (
+									<div key={`s-${j}`} className="hover:text-blue-600">
+										{s}
+									</div>
+								);
+							})}
+						</div>
+					);
+				})}
+			</div>
+		</>
 	);
 };
 

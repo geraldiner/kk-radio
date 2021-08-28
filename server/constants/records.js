@@ -1,4 +1,4 @@
-export const PLAYLISTS = {
+const PLAYLISTS = {
 	"good": {
 		title: "Feelin' Good!",
 		color: "bg-yellow-400",
@@ -121,7 +121,7 @@ export const PLAYLISTS = {
 	},
 };
 
-export const TITLE_TO_ID = {
+const TITLE_TO_ID = {
 	"Agent K.K.": 1,
 	"Aloha K.K.": 2,
 	"Animal City": 3,
@@ -218,3 +218,5 @@ export const TITLE_TO_ID = {
 	Wandering: 94,
 	"Welcome Horizons": 95,
 };
+
+module.exports = { PLAYLISTS, TITLE_TO_ID };
