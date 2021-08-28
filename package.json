@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm-run-all -p start:*",
     "start:client": "cd client && npm run start",
-    "start:build": "cd server && npm run dev"
+    "start:server": "cd server && npm run dev"
   },
   "repository": {
     "type": "git",
