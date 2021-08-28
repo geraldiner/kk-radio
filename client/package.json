@@ -2,6 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://geraldiner.github.io/kk-radio",
   "dependencies": {
     "@apollo/client": "^3.4.9",
     "@craco/craco": "^6.2.0",
@@ -12,6 +13,7 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "gh-pages": "^3.2.3",
     "graphql": "^15.5.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -21,6 +23,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build",
     "start": "npm-run-all start:tailwind -l -p start:a:*",
     "start:tailwind": "postcss ./src/assets/css/tailwind.src.css -o ./src/assets/css/tailwind.css",
     "start:a:watch-tailwind": "onchange 'tailwind.config.js' 'src/**/*.css' -e './src/assets/css/tailwind.css' -- npm run start:tailwind",
