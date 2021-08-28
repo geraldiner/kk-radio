@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import SongList from "./SongList";
 
-const Disk = ({ name, title, color, x }) => {
+const Record = ({ name, title, color }) => {
 	return (
 		<>
 			<div className={`flex flex-col items-center w-1/5 px-4 transform hover:scale-125`}>
@@ -18,4 +18,4 @@ const Disk = ({ name, title, color, x }) => {
 	);
 };
 
-export default Disk;
+export default Record;

@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { PLAYLISTS } from "./constants/records";
 import AudioControls from "./AudioControls";
 import Backdrop from "./Backdrop";
+import Record from "./Record";
 
 const AudioPlayer = ({ playlist, songs }) => {
 	const [currIndex, setCurrIndex] = useState(0);
@@ -92,6 +93,9 @@ const AudioPlayer = ({ playlist, songs }) => {
 
 	return (
 		<>
+			<div className="flex justify-center w-4/12 mx-auto my-16">
+				<Record name={PLAYLISTS[playlist]} title="" color={PLAYLISTS[playlist].color} />
+			</div>
 			<div className="flex w-4/12 mx-auto my-16 bg-white rounded-md p-4">
 				<div className="w-1/3">
 					<img className="rounded-md" src={currSong.image_url} alt={`Song artwork for ${currSong.title}`} />
