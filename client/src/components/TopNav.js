@@ -4,7 +4,7 @@ const TopNav = () => {
 	return (
 		<>
 			{/* Top Header Bar */}
-			<div className="flex bg-yellow-400 py-5 px-8 justify-between">
+			<div className="top-nav flex py-5 px-8 justify-between">
 				<h2 className="text-lg">
 					<a href="/">K.K. Radio</a>
 				</h2>

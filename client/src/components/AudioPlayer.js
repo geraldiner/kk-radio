@@ -92,7 +92,7 @@ const AudioPlayer = ({ playlist, songs }) => {
 
 	return (
 		<>
-			<div className="flex w-4/12 mx-auto my-16 bg-white rounded-md border-2 border-black p-4">
+			<div className="flex w-4/12 mx-auto my-16 bg-white rounded-md p-4">
 				<div className="w-1/3">
 					<img className="rounded-md" src={currSong.image_url} alt={`Song artwork for ${currSong.title}`} />
 				</div>

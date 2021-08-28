@@ -1,7 +1,7 @@
 export const PLAYLISTS = {
 	"good": {
 		title: "Feelin' Good!",
-		color: "bg-yellow-400",
+		color: "#FBBF24",
 		songs: [
 			"Mountain Song",
 			"Bubblegum K.K.",
@@ -26,7 +26,7 @@ export const PLAYLISTS = {
 	},
 	"grumpy": {
 		title: "Grumpy McGrumpy Face",
-		color: "bg-gray-700",
+		color: "#374151",
 		songs: [
 			"K.K. Cruisin'",
 			"Lucky K.K.",
@@ -50,7 +50,7 @@ export const PLAYLISTS = {
 	},
 	"lazy": {
 		title: "Lazy Bum",
-		color: "bg-pink-700",
+		color: "#CE9BF6",
 		songs: [
 			"Aloha K.K.",
 			"K.K. Stroll",
@@ -77,7 +77,7 @@ export const PLAYLISTS = {
 	},
 	"sad": {
 		title: "#sadboihours",
-		color: "bg-blue-800",
+		color: "#1E40AF",
 		songs: [
 			"Two Days Ago",
 			"Only Me",
@@ -100,7 +100,7 @@ export const PLAYLISTS = {
 	},
 	"unknown": {
 		title: "*shrug*",
-		color: "bg-red-500",
+		color: "#EF4444",
 		songs: [
 			"Hypno K.K.",
 			"K.K. Rally",

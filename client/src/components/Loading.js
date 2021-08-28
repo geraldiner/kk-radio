@@ -4,9 +4,9 @@ const Loading = ({ loading }) => {
 	return (
 		<>
 			{loading ? (
-				<section>
+				<div className="flex w-2/4 mx-auto mt-16">
 					<span>Loading...</span>
-				</section>
+				</div>
 			) : null}
 		</>
 	);
