@@ -26,5 +26,5 @@
   "homepage": "https://kk-radio.netlify.app",
   "devDependencies": {
     "npm-run-all": "^4.1.5"
-  },
+  }
 }
