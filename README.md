@@ -18,7 +18,15 @@ In Animal Crossing: New Horizons, the traveling guitarist K.K. Slider takes requ
 
 After going through [Apollo's Lift Off series on their Odyssey learning platform](https://odyssey.apollographql.com/), I've been looking at opportunities to implement GraphQL wherever I can. I admit it might've been overkill here, but the [ACNH API](https://acnhapi.com/doc) does provide more information about the songs than I actually need. And that is one of the reasons why you'd want to implement GraphQL. I only needed the title, audio source, and song artwork.
 
-The project is bootstrapped with `create-react-app` and after creating the [Interactive Piano](https://github.com/geraldiner/piano) recently, I was thinking about how to implement the `AudioPlayer`. I didn't think it was as complicated I stumbled on [this tutorial](https://letsbuildui.dev/articles/building-an-audio-player-with-react-hooks) by [Ryan Finni](https://github.com/rfinni) and it was exactly what I was trying to do.
+The project is bootstrapped with `create-react-app` and after creating the [Interactive Piano](https://github.com/geraldiner/piano) recently, I was thinking about how to implement the `AudioPlayer`. I didn't think it was as complicated for this project since I only really needed an `audio` tag.
+
+I stumbled on [this tutorial](https://letsbuildui.dev/articles/building-an-audio-player-with-react-hooks) by [Ryan Finni](https://github.com/rfinni) and it was exactly what I was trying to do. It uses the React Hooks I was already familiar with, namely `useState` and `useEffect`. For this project, there were many states to keep track of: what song is being played, is the song playing or paused, where in the song duration is it, and so forth. There was a new hook I haven't seen before: `useRef`, which is used to get information about other components or parts within a component.
+
+For example, the `intervalRef` keeps track of the song's progress and it needs to know information from the `audioRef`, which is handling the audio controls, to know if a song has been paused, played, or scrubbed through, so it can update the progress indicator. It's also responsible for moving on to the next song once the current song is finished.
+
+Rather than the controls on an `audio` tag, the audio controls for this project are also built from scratch with their own event listeners related to the audio player.
+
+Instead of the color gradient backdrop, I opted to add images of K.K. Slider himself, which were found on the [Animal Crossing Wiki](https://animalcrossing.fandom.com/wiki/K.K._Slider).
 
 ### Back-End: NodeJS, Apollo, GraphQL
 
@@ -26,11 +34,13 @@ As previously mentioned, I was just finishing the first two parts of the Lift Of
 
 ## Optimizations
 
-You don't have to include this section but interviewers _love_ that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+I thought implementing GraphQL and Apollo would've optimized this project by making API requests and only returning the data needed. There is a lot of data tied to K.K. Slider songs in the ACNH API (mostly the title in different languages and other in-game info), which I didn't need. That was the original reason for implementing it.
+
+However, I did notice that it does take a while to load up. I'm not sure how to address this yet. I think caching is probably a good idea, but I don't know how to do that. There is always `localStorage` or `sessionStorage`, which would keep it in the individual user's machine. But that would take more research on my part.
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those _whoa this is awesome_ or _fuck yeah I did it!_ moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+I only had one false start this project (compared to the three in the React piano)! I made the mistake of coding up the front-end first before functionality. As someone with a design background and preference for front-end, I always want to work on that first. But as I'm starting to learn, it's better for the long run to get functionality working, because it's almost always easier to style everything afterwards (at least it is for me).
 
 ## Other Projects
 
