@@ -6,7 +6,7 @@ In Animal Crossing: New Horizons, the traveling guitarist K.K. Slider takes requ
 
 ### Project Links
 
-**Live Site:** https://geraldiner.github.io/kk-radio/
+**Live Site:** https://kk-radio.netlify.app
 
 ![K.K. Slider grooving](https://i.imgur.com/qlQJLKN.gif)
 
