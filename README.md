@@ -10,7 +10,7 @@ In Animal Crossing: New Horizons, the traveling guitarist K.K. Slider takes requ
 
 ![K.K. Slider grooving](https://i.imgur.com/qlQJLKN.gif)
 
-## How It's Made:
+## How It's Made
 
 **Tech used:** HTML, CSS, JavaScript, TailwindCSS, ReactJS, Apollo, GraphQL
 
@@ -38,7 +38,7 @@ I thought implementing GraphQL and Apollo would've optimized this project by mak
 
 However, I did notice that it does take a while to load up. I'm not sure how to address this yet. I think caching is probably a good idea, but I don't know how to do that. There is always `localStorage` or `sessionStorage`, which would keep it in the individual user's machine. But that would take more research on my part.
 
-## Lessons Learned:
+## Lessons Learned
 
 I only had one false start this project (compared to the three in the React piano)! I made the mistake of coding up the front-end first before functionality. As someone with a design background and preference for front-end, I always want to work on that first. But as I'm starting to learn, it's better for the long run to get functionality working, because it's almost always easier to style everything afterwards (at least it is for me).
 
