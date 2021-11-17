@@ -46,6 +46,10 @@ I only had one false start this project (compared to the three in the React pian
 
 Check out other stuff I've worked on:
 
+**Rehabitter:** https://github.com/geraldiner/rehabitter
+
+**K.K. Radio:** https://github.com/geraldiner/kk-radio
+
 **Interactive Piano:** https://github.com/geraldiner/piano
 
 **Pom Poko Pomodoro:** https://github.com/geraldiner/pom-poko-pomodoro
