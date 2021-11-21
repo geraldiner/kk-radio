@@ -46,6 +46,7 @@ I only had one false start this project (compared to the three in the React pian
 
 
 
+
 ## Other Projects
 
 Check out other stuff I've worked on:
@@ -57,3 +58,7 @@ Check out other stuff I've worked on:
 **Snapchat Clone:** https://github.com/geraldiner/snapchat-clone
 
 **K.K. Radio:** https://github.com/geraldiner/kk-radio
+
+**Pom Poko Pomodoro App:** https://github.com/geraldiner/pom-poko-pomodoro
+
+**Interactive Piano:** https://github.com/geraldiner/piano
