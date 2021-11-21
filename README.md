@@ -43,6 +43,7 @@ However, I did notice that it does take a while to load up. I'm not sure how to 
 I only had one false start this project (compared to the three in the React piano)! I made the mistake of coding up the front-end first before functionality. As someone with a design background and preference for front-end, I always want to work on that first. But as I'm starting to learn, it's better for the long run to get functionality working, because it's almost always easier to style everything afterwards (at least it is for me).
 
 
+
 ## Other Projects
 
 Check out other stuff I've worked on:
@@ -54,5 +55,3 @@ Check out other stuff I've worked on:
 **Snapchat Clone:** https://github.com/geraldiner/snapchat-clone
 
 **K.K. Radio:** https://github.com/geraldiner/kk-radio
-
-**Interactive Piano:** https://github.com/geraldiner/piano
