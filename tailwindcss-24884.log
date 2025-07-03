@@ -1,0 +1,87 @@
+2025-07-03T19:35:55.949965Z  INFO tailwindcss_oxide::scanner: Provided sources:
+2025-07-03T19:35:55.950064Z  INFO tailwindcss_oxide::scanner: Source: PublicSourceEntry { base: "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio", pattern: "**/*", negated: false }
+2025-07-03T19:35:55.950288Z  INFO tailwindcss_oxide::scanner: Optimized sources:
+2025-07-03T19:35:55.950323Z  INFO tailwindcss_oxide::scanner: Source: Auto { base: "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio" }
+2025-07-03T19:35:55.951752Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-07-03T19:35:55.953034Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\eslint.config.mjs"
+2025-07-03T19:35:55.954055Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\netlify"
+2025-07-03T19:35:55.954242Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\netlify\\functions"
+2025-07-03T19:35:55.954369Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\netlify\\functions\\hello"
+2025-07-03T19:35:55.954479Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\netlify\\functions\\hello\\index.mts"
+2025-07-03T19:35:55.954556Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\netlify\\functions\\latest-upload"
+2025-07-03T19:35:55.954642Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\netlify\\functions\\latest-upload\\index.mts"
+2025-07-03T19:35:55.954713Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\netlify.toml"
+2025-07-03T19:35:55.954752Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\next.config.ts"
+2025-07-03T19:35:55.954950Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\package.json"
+2025-07-03T19:35:55.954991Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\postcss.config.mjs"
+2025-07-03T19:35:55.955054Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\public"
+2025-07-03T19:35:55.955144Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\public\\file.svg"
+2025-07-03T19:35:55.955176Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\public\\globe.svg"
+2025-07-03T19:35:55.955210Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\public\\next.svg"
+2025-07-03T19:35:55.955242Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\public\\vercel.svg"
+2025-07-03T19:35:55.955273Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\public\\window.svg"
+2025-07-03T19:35:55.955324Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\README.md"
+2025-07-03T19:35:55.955357Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\renovate.json"
+2025-07-03T19:35:55.955410Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\src"
+2025-07-03T19:35:55.955505Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\src\\app"
+2025-07-03T19:35:55.955590Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\src\\app\\globals.css"
+2025-07-03T19:35:55.955634Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\src\\app\\layout.tsx"
+2025-07-03T19:35:55.955703Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\src\\app\\page.tsx"
+2025-07-03T19:35:55.955907Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\tsconfig.json"
+2025-07-03T19:35:55.956454Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-07-03T19:35:55.956469Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-07-03T19:35:55.956476Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-07-03T19:35:55.956479Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 17 file(s)
+2025-07-03T19:35:55.957429Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\eslint.config.mjs"
+2025-07-03T19:35:55.957515Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\netlify\\functions\\hello\\index.mts"
+2025-07-03T19:35:55.957564Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\netlify\\functions\\latest-upload\\index.mts"
+2025-07-03T19:35:55.957705Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\public\\globe.svg"
+2025-07-03T19:35:55.957736Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\netlify.toml"
+2025-07-03T19:35:55.957801Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\public\\next.svg"
+2025-07-03T19:35:55.957845Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\next.config.ts"
+2025-07-03T19:35:55.957868Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\public\\vercel.svg"
+2025-07-03T19:35:55.957986Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\package.json"
+2025-07-03T19:35:55.958010Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\public\\window.svg"
+2025-07-03T19:35:55.958084Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\README.md"
+2025-07-03T19:35:55.958109Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\postcss.config.mjs"
+2025-07-03T19:35:55.958132Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\renovate.json"
+2025-07-03T19:35:55.958182Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\src\\app\\layout.tsx"
+2025-07-03T19:35:55.958203Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\public\\file.svg"
+2025-07-03T19:35:55.958228Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\src\\app\\page.tsx"
+2025-07-03T19:35:55.958295Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\tsconfig.json"
+2025-07-03T19:35:55.958505Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-07-03T19:35:55.958523Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-07-03T19:35:55.958528Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-07-03T19:35:55.959052Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-07-03T19:35:55.959069Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-07-03T19:35:55.959076Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-07-03T19:35:55.959078Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-07-03T19:35:55.959249Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\src\\app\\globals.css"
+2025-07-03T19:35:55.959261Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-07-03T19:35:55.959334Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: enter
+2025-07-03T19:35:55.959341Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: enter
+2025-07-03T19:35:55.959485Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: exit
+2025-07-03T19:35:55.959497Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: exit
+2025-07-03T19:35:55.959716Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-07-03T19:35:55.960002Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-07-03T19:35:55.960013Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-07-03T19:35:55.961481Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\netlify"
+2025-07-03T19:35:55.961605Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\netlify\\functions"
+2025-07-03T19:35:55.961819Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\netlify\\functions\\hello"
+2025-07-03T19:35:55.961990Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\netlify\\functions\\latest-upload"
+2025-07-03T19:35:55.962549Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\public"
+2025-07-03T19:35:55.962817Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\src"
+2025-07-03T19:35:55.962931Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\src\\app"
+2025-07-03T19:35:55.963153Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-07-03T19:35:55.963281Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-07-03T19:35:55.963452Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-07-03T19:35:55.963458Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: enter
+2025-07-03T19:35:55.964892Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\netlify"
+2025-07-03T19:35:55.965222Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\netlify\\functions"
+2025-07-03T19:35:55.965506Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\netlify\\functions\\hello"
+2025-07-03T19:35:55.965694Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\netlify\\functions\\latest-upload"
+2025-07-03T19:35:55.966461Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\public"
+2025-07-03T19:35:55.966776Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\src"
+2025-07-03T19:35:55.966886Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Geraldine\\Desktop\\code\\kk-radio\\src\\app"
+2025-07-03T19:35:55.967185Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: exit
+2025-07-03T19:35:55.970477Z  INFO get_globs: tailwindcss_oxide::scanner: exit
