@@ -1,20 +1,27 @@
 {
   "name": "kk-radio",
-  "version": "2.0.0",
-  "description": "A simple music player built in React that plays K.K. Slider songs based on mood.",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/geraldiner/kk-radio.git"
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "15.3.4"
   },
-  "keywords": [],
-  "author": "Geraldine Ragsac",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/geraldiner/kk-radio/issues"
-  },
-  "homepage": "https://kk-radio.netlify.app/"
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.4",
+    "@eslint/eslintrc": "^3"
+  }
 }
