@@ -1,30 +1,20 @@
 {
   "name": "kk-radio",
-  "version": "1.0.0",
-  "description": "A simple music player built in React to play K.K. Slider (from Animal Crossing) songs based on your mood.",
+  "version": "2.0.0",
+  "description": "A simple music player built in React that plays K.K. Slider songs based on mood.",
   "main": "index.js",
   "scripts": {
-    "start": "npm-run-all -p start:*",
-    "start:client": "cd client && npm run start",
-    "start:server": "cd server && npm run dev",
-    "build": "cd client && npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/geraldiner/kk-radio.git"
   },
-  "keywords": [
-    "reactjs",
-    "apollo",
-    "graphql"
-  ],
-  "author": "Geraldine R",
+  "keywords": [],
+  "author": "Geraldine Ragsac",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/geraldiner/kk-radio/issues"
   },
-  "homepage": "https://kk-radio.netlify.app/",
-  "devDependencies": {
-    "npm-run-all": "^4.1.5"
-  }
+  "homepage": "https://kk-radio.netlify.app/"
 }

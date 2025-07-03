@@ -14,7 +14,8 @@
     "apollo-datasource-rest": "^3.2.0",
     "apollo-server": "^3.3.0",
     "dotenv": "^10.0.0",
-    "graphql": "^15.5.1"
+    "graphql": "^15.5.1",
+    "update": "^0.4.2"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
