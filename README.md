@@ -1,5 +1,5 @@
 # Update August 7, 2025
-Check out the [new versio](https://github.com/geraldiner/nook-radio)n of this project!
+Check out the [new version](https://github.com/geraldiner/nook-radio) of this project!
 
 # K.K. Radio
 
