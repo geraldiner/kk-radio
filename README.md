@@ -1,3 +1,6 @@
+# Update August 7, 2025
+Check out the [new versio](https://github.com/geraldiner/nook-radio)n of this project!
+
 # K.K. Radio
 
 A simple music player built in React that plays K.K. Slider songs based on mood.
